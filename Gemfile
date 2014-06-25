@@ -9,6 +9,8 @@ gem 'pg'
 gem 'therubyracer'
 gem 'execjs'
 gem 'devise'
+gem 'mustache'
+gem 'slim'
 # Gems used only for assets and not required
 # in production environments by default.
 group :assets do
