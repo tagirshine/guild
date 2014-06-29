@@ -1,8 +1,5 @@
 Guild::Application.routes.draw do
 
-  resources :posts
-
-
   # The priority is based upon order of creation:
   # first created -> highest priority.
 
@@ -61,6 +58,8 @@ Guild::Application.routes.draw do
   # match ':controller(/:action(/:id))(.:format)'
 
   #resources :users
+
+  resources :posts
 
   root :to => "static_pages#mainpage"
 
