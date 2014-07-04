@@ -1,11 +1,14 @@
-class PostsController < ApplicationController
+ class PostsController  < ApplicationController#InheritedResources::Base
   # GET /posts
   # GET /posts.json
+
+  # before_action :index
+  inherit_resources
   def index
     @posts = Post.all
 
     respond_to do |format|
-      format.html # index.html.erb
+      format.html # index.html.slim
       format.json { render json: @posts }
     end
   end
@@ -24,6 +27,7 @@ class PostsController < ApplicationController
   # GET /posts/new
   # GET /posts/new.json
   def new
+
     @post = Post.new
 
     respond_to do |format|
@@ -80,4 +84,24 @@ class PostsController < ApplicationController
       format.json { head :no_content }
     end
   end
+
+  #
+  # private
+  #
+  #
+  # # def user_params
+  # #   params.require(:user).permit(:name, :email, :password, :password_confirmation)
+  # # end
+  #
+  #
+  # # Before filters
+  #
+  # def signed_in_user
+  #   unless signed_in?
+  #     # store_location
+  #     redirect_to signin_url, notice: "Please sign in."
+  #   end
+  # end
+  #
+
 end
