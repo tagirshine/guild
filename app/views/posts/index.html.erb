@@ -9,8 +9,8 @@
     <th></th>
     <th></th>
   </tr>
-
-<% @posts.each do |post| %>
+<%=current_user%>
+<% collection.each do |post| %>
   <tr>
     <td><%= post.title %></td>
     <td><%= post.content %></td>
