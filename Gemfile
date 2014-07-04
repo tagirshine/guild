@@ -40,3 +40,7 @@ gem 'inherited_resources'
 
 # To use debugger
 # gem 'debugger'
+
+
+gem 'inherited_resources'
+gem 'cancan'
