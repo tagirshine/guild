@@ -19,7 +19,7 @@ test:
   adapter: postgresql
   database: guild_test
   encoding: utf8
-  username: demo
+  username: postgres
 #  pool: 5
 #  timeout: 5000
 #  username: postgres
@@ -32,6 +32,6 @@ production:
   encoding: utf8
 #  pool: 5
 #  timeout: 5000
-  username: demo
+  username: postgres
 #  host: localhost
 #  password: '123'
