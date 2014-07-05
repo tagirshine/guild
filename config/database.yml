@@ -19,6 +19,7 @@ test:
   adapter: postgresql
   database: guild_test
   encoding: utf8
+  username: demo
 #  pool: 5
 #  timeout: 5000
 #  username: postgres
