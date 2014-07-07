@@ -24,7 +24,6 @@ group :assets do
 end
 
 gem 'jquery-rails'
-gem 'inherited_resources'
 
 # To use ActiveModel has_secure_password
 # gem 'bcrypt-ruby', '~> 3.0.0'
@@ -44,3 +43,4 @@ gem 'inherited_resources'
 
 gem 'inherited_resources'
 gem 'cancan'
+gem 'meta-tags'
