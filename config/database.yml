@@ -28,10 +28,8 @@ test:
 
 production:
   adapter: postgresql
-  database: guild_prod
+  database: guild
   encoding: utf8
-#  pool: 5
-#  timeout: 5000
-  username: postgres
-#  host: localhost
-#  password: '123'
+  username: guild
+  host: localhost
+  password: guild62981
