@@ -1,0 +1,5 @@
+user: root
+port: 80
+chdir: /root/guild
+environment: production
+daemonize: true

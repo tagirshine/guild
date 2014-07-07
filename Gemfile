@@ -2,6 +2,8 @@ source 'https://rubygems.org'
 
 gem 'rails', '3.2.16'
 
+gem 'thin'
+
 # Bundle edge Rails instead:
 # gem 'rails', :git => 'git://github.com/rails/rails.git'
 
@@ -39,7 +41,6 @@ gem 'jquery-rails'
 
 # To use debugger
 # gem 'debugger'
-
 
 gem 'inherited_resources'
 gem 'cancan'
