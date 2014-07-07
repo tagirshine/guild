@@ -2,6 +2,8 @@ source 'https://rubygems.org'
 
 gem 'rails', '3.2.16'
 
+gem 'thin'
+
 # Bundle edge Rails instead:
 # gem 'rails', :git => 'git://github.com/rails/rails.git'
 
@@ -24,7 +26,6 @@ group :assets do
 end
 
 gem 'jquery-rails'
-gem 'inherited_resources'
 
 # To use ActiveModel has_secure_password
 # gem 'bcrypt-ruby', '~> 3.0.0'
@@ -41,6 +42,5 @@ gem 'inherited_resources'
 # To use debugger
 # gem 'debugger'
 
-
 gem 'inherited_resources'
-gem 'cancan'
+#gem 'cancan'

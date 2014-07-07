@@ -7,7 +7,7 @@ development:
   adapter: postgresql
   encoding: utf8
   database: guild_development
-  username: demo
+#  username: demo
 #  username: postgres
 #  host: localhost
 #  password: '123'
