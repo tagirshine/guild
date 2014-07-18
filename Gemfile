@@ -49,3 +49,7 @@ gem 'meta-tags'
 group :development do
   gem 'capobvious', '0.3.pre24'
 end
+
+group :production do
+  gem 'unicorn'
+end

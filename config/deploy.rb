@@ -5,7 +5,7 @@ set :user, "root"
 set :serv, "146.185.191.125"
 
 set :repository,  'https://github.com/tagirshine/guild.git'
-set :branch, 'capobvious'
+set :branch, 'capobvoius'
 set :server_name, 'servicespb.su'
 set :server_redirect, 'www.servicespb.su'
 
