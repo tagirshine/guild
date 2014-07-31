@@ -44,3 +44,4 @@ gem 'jquery-rails'
 
 gem 'inherited_resources'
 gem 'cancan'
+gem 'meta-tags'
